@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="495dp"
+        android:background="@drawable/gradient"
+        android:padding="5dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textViewDateCurrent"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="42dp"
+            android:background="#11000000"
+            android:text="Date"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTimeCurrent"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:layout_alignStart="@+id/spElephantCurrent"
+            android:layout_alignTop="@+id/textViewDateCurrent"
+            android:background="#11000000"
+            android:text="Time"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewElephantCurrent"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:layout_alignStart="@+id/textViewDateCurrent"
+            android:layout_below="@+id/tLatitude"
+            android:text="    Elephant"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spElephantCurrent"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textViewElephantCurrent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:background="#11000000" />
+
+
+        <Button
+            android:id="@+id/buttonReportCurrent"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="211dp"
+            android:layout_marginStart="55dp"
+            android:background="@drawable/buttonselector"
+            android:onClick="onReport"
+            android:text="Report"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/tLatitude"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textViewDateCurrent"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="Latitude"
+            android:inputType="textPersonName"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/tLongitude"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:layout_alignStart="@+id/textViewTimeCurrent"
+            android:layout_alignTop="@+id/tLatitude"
+            android:ems="10"
+            android:hint="Longitude"
+            android:inputType="textPersonName"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

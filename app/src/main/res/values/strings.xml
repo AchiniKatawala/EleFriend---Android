@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EleFriend</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--pop up spinner-->
+
+    <!--<string-array name="LocationArray">-->
+    <!--<item>Current</item>-->
+    <!--<item>A</item>-->
+    <!--<item>B</item>-->
+    <!--<item>C</item>-->
+    <!--<item>D</item>-->
+    <!--<item>E</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;<string-array name="ElephantArray">&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>Current</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>A</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>B</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>C</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>D</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>E</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</string-array>&ndash;&gt;-->
+
+</resources>
